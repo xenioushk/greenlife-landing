@@ -1,0 +1,189 @@
+/*
+Name: Responsive CSS File - Agent Minimal Agency Template.
+Author: ThemeHavens
+Version: 1.0
+*/
+
+/* Medium Device */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+        margin: 0 auto;
+    }      
+}
+/* Tablet Device */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+        margin: 0 auto;
+    }
+    .about .about-right .service .icon {
+        width: 12%;
+    }
+    .about .about-right .service .content {
+        width: 88%;
+    }
+    .service {
+        margin-bottom: 30px;
+    }
+    .fact {
+        margin-bottom: 35px;
+    }
+    .portfolio .porfolio-items .single-porfolio {
+        width: 33%;
+    }
+    .portfolio .porfolio-items .single-porfolio .img img {
+        height: 200px;
+    }
+    .blog {
+        padding-bottom: 35px;
+    }
+    .blog .single-blog {
+        margin-bottom: 35px;
+    }
+}
+/* Mobile Device - Portait */
+@media only screen and (max-width: 767px) {
+    .color-switcher {
+        display: none;
+    }
+    .header-area {
+        background-color: #000;
+        opacity: 1;
+        border: none;
+    }
+    .header-area .logo {
+        padding: 24px 0;
+    }
+    .header-area .logo a {
+        color: #fff;
+    }
+    .header-text-area {
+        text-align: center;
+    }
+    .header-text h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .
+    /*.header-text h3 {
+        font-size: 12px;
+    }*/
+    .header-btn2 {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .mainmenu ul.nav.navbar-nav li {
+        background-color: #000;
+        display: block;
+        text-align: left;
+        z-index: 9999;
+    }
+    .mainmenu ul.nav.navbar-nav li a {
+        color: #fff;
+        padding: 10px 0;
+    }
+    .is-sticky .mainmenu ul.nav.navbar-nav li {
+        background-color: #fff;
+    }
+    .is-sticky .mainmenu ul.nav.navbar-nav li a {
+        padding: 14px 0;
+    }
+    .hero-slider-navigation a {
+        font-size: 50px;
+    }
+    .hero-slider-btn {
+        opacity: 1 !important;
+    }
+    .navbar-toggle {
+        margin-bottom: 18px;
+        margin-top: 18px;
+        padding: 10px 10px;
+        transition: .7s;
+    }
+    .is-sticky .navbar-toggle {
+        margin: 10px 15px;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #526dfa;
+    }
+    .scroll-down {
+        font-size: 12px;
+    }
+    .scroll-down span {
+        font-size: 9px;
+        padding-top: 4px;
+    }
+    .about .about-right {
+        margin-top: 13px;
+    }
+    .about .about-right .service .icon {
+        width: 15%;
+    }
+    .about .about-right .service .content {
+        width: 85%;
+    }
+    .service {
+        margin-bottom: 30px;
+    }
+    .fact {
+        margin-bottom: 35px;
+    }
+    .portfolio .porfolio-items .single-porfolio {
+        width: 100%;
+    }
+    .process-area {
+        padding-bottom: 55px;
+    }
+    .process-area .single-process {
+        margin-bottom: 35px;
+    }
+    .client .single-client .content p {
+        padding: 0 20px 10px;
+    }
+    .client .single-client .content i.fa {
+        font-size: 22px;
+        font-weight: 700;
+        transform: translateX(-6px);
+    }
+    .client .owl-pagination {
+        float: none;
+        margin: 0 auto;
+    }
+    .blog {
+        padding-bottom: 35px;
+    }
+    .blog .single-blog {
+        margin-bottom: 35px;
+    }
+    .promo h3 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    #footer .service-links {
+        margin-bottom: 35px;
+    }
+}
+/* Mobile Device - Landscape */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header-text h2 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .header-text h3 {
+        font-size: 13px;
+    }
+    .header-btn2 {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .about .about-right .service .icon {
+        width: 8%;
+    }
+    .about .about-right .service .content {
+        width: 92%;
+    }
+    .portfolio .porfolio-items .single-porfolio {
+        width: 50%;
+    }  
+}

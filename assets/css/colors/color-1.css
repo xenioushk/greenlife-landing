@@ -1,0 +1,73 @@
+/*
+Theme Name: Franklin Personal Portfolio
+Author: ThemeHavens
+Author URI: http://themeforest.net/user/themehavens
+Version: 1.0
+*/
+
+/* Color-Box Switch */
+.color-switcher h6 {background: #526dfa;}
+.color-switcher .switcher-btn {background: #526dfa;}
+.color-switcher .map-styles li a:hover {background: #526dfa;}
+
+.separator {background-color: #526dfa;}
+
+/* Header Section */
+.header-area .logo a span {color: #526dfa;}
+.header-btn2:hover {background-color: #526dfa;}
+.is-sticky .header-area .logo a span {color: #526dfa;}
+
+/* Navbar */
+.mainmenu ul.nav.navbar-nav li:hover a {color: #526dfa;}
+.mainmenu ul.nav.navbar-nav li.active > a {color: #526dfa;}
+.navbar-toggle .icon-bar {color: #526dfa;}
+
+/* SLider */
+.hero-slider-btn {background-color: rgba(82, 109, 250, 0.7);}
+.hero-slider-btn:hover {background-color: rgba(82, 109, 250, 1);}
+
+/* About Section */
+.about .about-top a:hover {background-color: #526dfa;}
+.about .about-bottom .skillbar-bar {background-color: #526dfa;}
+.about .about-right .service .icon i.fa {color: #526dfa;}
+
+/* Services Section */
+.service-icon {background-color: #526dfa;}
+.service:hover .service-icon {color: #526dfa;}
+.service:hover .service-icon:after {border: 3px #526dfa; border-style: dashed;}
+
+/* Fun Facts Section */
+.fun-facts .fact span.timer {color: #526dfa;}
+
+/* Portfolio Section */
+.portfolio-filter > .nav > li.active,
+.portfolio-filter > .nav > li:hover {color: #526dfa;}
+.portfolio .porfolio-items .single-porfolio .img .porto-body .porto-icon a i.fa {color: #526dfa;}
+.portfolio .porfolio-items .single-porfolio .img .porto-body .porto-icon a i.fa:hover {background: #526dfa;}
+
+/* Process Area Section */
+.process-area .single-process span {color: #526dfa;}
+
+/* Client Section */
+.client .single-client i.fa {color: #526dfa;}
+.client .single-client .client-img img {border: 5px solid #526dfa;}
+.client .single-client span {color: #526dfa;}
+.client .owl-theme .owl-controls .owl-page span {border: 3px solid #526dfa;}
+
+/* Blog Section */
+.blog .single-blog span {color: #526dfa;}
+
+/* Promo Section */
+.promo {background-color: #526dfa;}
+
+/* Contact Section */
+.contact .addrs i.fa {color: #526dfa;}
+.contact .submit button {background-color: #526dfa; border: 1px solid #526dfa;}
+.contact .submit button:hover {border: 1px solid #526dfa; color: #526dfa;}
+
+/* Footer Section */
+#footer .footer-logo .newsletter button {background-color: #526dfa;}
+#footer .service-links .service-link a:hover {color: #526dfa;}
+#footer .useful-links .footer-link a:hover {color: #526dfa;}
+#footer .social-link a i.fa:hover {color: #526dfa;}
+#footer .copyright p a {color: #526dfa;}
